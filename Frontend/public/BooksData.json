@@ -1,0 +1,203 @@
+
+ [
+        {
+          "id": 1,
+          "name": "J.K. Rowling",
+          "title": "Harry Potter and the Sorcerer's Stone",
+          "price": 29.99,
+          "category": "Fantasy",
+          "image": "https://m.media-amazon.com/images/I/51UoqRAxwEL._SY346_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 2,
+          "name": "George Orwell",
+          "title": "1984",
+          "price": 19.99,
+          "category": "Dystopian",
+          "image": "https://m.media-amazon.com/images/I/71kxa1-0mfL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 3,
+          "name": "J.R.R. Tolkien",
+          "title": "The Hobbit",
+          "price": 0,
+          "category": "Fantasy",
+          "image": "https://m.media-amazon.com/images/I/41aQPTCmeVL._SY346_.jpg",
+          "type": "free"
+        },
+        {
+          "id": 4,
+          "name": "F. Scott Fitzgerald",
+          "title": "The Great Gatsby",
+          "price": 10.99,
+          "category": "Classic",
+          "image": "https://m.media-amazon.com/images/I/71FTb9X6wsL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 5,
+          "name": "Harper Lee",
+          "title": "To Kill a Mockingbird",
+          "price": 0,
+          "category": "Classic",
+          "image": "https://m.media-amazon.com/images/I/81OtwkiBefL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "free"
+        },
+        {
+          "id": 6,
+          "name": "Paulo Coelho",
+          "title": "The Alchemist",
+          "price": 15.99,
+          "category": "Adventure",
+          "image": "https://m.media-amazon.com/images/I/71aFt4+OTOL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 7,
+          "name": "Markus Zusak",
+          "title": "The Book Thief",
+          "price": 12.49,
+          "category": "Historical Fiction",
+          "image": "https://m.media-amazon.com/images/I/81eB+7+CkUL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 8,
+          "name": "J.D. Salinger",
+          "title": "The Catcher in the Rye",
+          "price": 13.99,
+          "category": "Classic",
+          "image": "https://m.media-amazon.com/images/I/71HMyqG6MRL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 9,
+          "name": "Margaret Atwood",
+          "title": "The Handmaid's Tale",
+          "price": 14.50,
+          "category": "Dystopian",
+          "image": "https://m.media-amazon.com/images/I/71tbalAHYCL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 10,
+          "name": "Jane Austen",
+          "title": "Pride and Prejudice",
+          "price": 0,
+          "category": "Romance",
+          "image": "https://m.media-amazon.com/images/I/81wgcld4wxL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "free"
+        },
+        {
+          "id": 11,
+          "name": "Herman Melville",
+          "title": "Moby-Dick",
+          "price": 11.49,
+          "category": "Adventure",
+          "image": "https://m.media-amazon.com/images/I/81OthjkJBuL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 12,
+          "name": "Gabriel Garcia Marquez",
+          "title": "One Hundred Years of Solitude",
+          "price": 14.99,
+          "category": "Magic Realism",
+          "image": "https://m.media-amazon.com/images/I/71UHx7Bws-L._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 13,
+          "name": "Ray Bradbury",
+          "title": "Fahrenheit 451",
+          "price": 13.45,
+          "category": "Dystopian",
+          "image": "https://m.media-amazon.com/images/I/81bsw6fnUiL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 14,
+          "name": "Ernest Hemingway",
+          "title": "The Old Man and the Sea",
+          "price": 9.50,
+          "category": "Classic",
+          "image": "https://m.media-amazon.com/images/I/71joQmHHrkL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 15,
+          "name": "Khaled Hosseini",
+          "title": "The Kite Runner",
+          "price": 16.00,
+          "category": "Drama",
+          "image": "https://m.media-amazon.com/images/I/51cGQZPK8zL._SY346_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 16,
+          "name": "Mary Shelley",
+          "title": "Frankenstein",
+          "price": 8.99,
+          "category": "Horror",
+          "image": "https://m.media-amazon.com/images/I/81FSt1X9DJL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 17,
+          "name": "Leo Tolstoy",
+          "title": "War and Peace",
+          "price": 0,
+          "category": "Historical Fiction",
+          "image": "https://m.media-amazon.com/images/I/91oIjbIymUL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "free"
+        },
+        {
+          "id": 18,
+          "name": "Emily Brontë",
+          "title": "Wuthering Heights",
+          "price": 10.49,
+          "category": "Romance",
+          "image": "https://m.media-amazon.com/images/I/91UhDHPaRvL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 19,
+          "name": "George R.R. Martin",
+          "title": "A Game of Thrones",
+          "price": 22.50,
+          "category": "Fantasy",
+          "image": "https://m.media-amazon.com/images/I/51xjwbpH24L._SY346_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 20,
+          "name": "Dan Brown",
+          "title": "The Da Vinci Code",
+          "price": 0,
+          "category": "Mystery",
+          "image": "https://m.media-amazon.com/images/I/81QfygJw5tL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "free"
+        },
+        {
+          "id": 21,
+          "name": "Suzanne Collins",
+          "title": "The Hunger Games",
+          "price": 15.99,
+          "category": "Dystopian",
+          "image": "https://m.media-amazon.com/images/I/61JfGcL2ljL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        },
+        {
+          "id": 22,
+          "name": "Arthur Conan Doyle",
+          "title": "The Complete Sherlock Holmes",
+          "price": 18.25,
+          "category": "Mystery",
+          "image": "https://m.media-amazon.com/images/I/81OjwnqfgKL._AC_UY436_FMwebp_QL65_.jpg",
+          "type": "cost"
+        }
+        
+
+]
