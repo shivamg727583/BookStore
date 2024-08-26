@@ -34,6 +34,8 @@ function Courses() {
 
 </a>
 
+{Book.length>0? 
+
 <div className=" grid sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 xl:grid-col-4 gap-4 md:gap-8 lg:gap-12 xl:gap-8 p-4 md:p-8 lg:p-12 xl:p-16 p-20 self-center ">
     {Book.map((book, index) => (
         <Cards
@@ -42,6 +44,7 @@ item={book}
         />
         ))}
         </div>
+       : <h2 className='text-2xl font-semibold text-center h-[30vh]  '>There is no Books in Store</h2> }
         <Footer />
         </div>
 

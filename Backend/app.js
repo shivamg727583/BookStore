@@ -1,6 +1,7 @@
 import express  from 'express';
 import dotenv from 'dotenv';
-import cors  from 'cors'
+import cors  from 'cors';
+import path from 'path';
 const app = express();
 
 import connectDB from './config/mongoose-config.js';
@@ -19,6 +20,13 @@ app.use('/book',bookRouter);
 app.use('/user',userRouter)
 
 
+if(process.env.NODE_ENV==='production'){
+    const dirPath = path.resolve();
+    app.use(express.static('Frontend/dist'));
+    app.get('*',(req,res)=>{
+        res.sendFile(path.join(dirPath,'Frontend','dist','index.html'));
+    })
+}
 
 
 app.listen(PORT,function(){

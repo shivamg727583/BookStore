@@ -73,6 +73,9 @@ function FreeBooks() {
           </p>
         </div>
 
+
+{Book.length>0 ?  
+
         <div className="self-center">
           <Slider {...settings}>
             {Books.map((item) => (
@@ -80,6 +83,7 @@ function FreeBooks() {
             ))}
           </Slider>
         </div>
+        : <div className="text-center text-lg font-bold py-10">No courses found</div>}
       </div>
     </>
     )

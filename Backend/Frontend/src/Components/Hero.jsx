@@ -22,7 +22,7 @@ function Hero() {
   <input type="text" className="grow" placeholder="Enter your email to login" />
 </label>
 
-<button className='w-fit bg-pink-500 hover:bg-pink-600 text-white capitalize font-medium px-3 py-2 rounded-lg '>Secondary</button>
+<button className='w-fit bg-pink-500 hover:bg-pink-600 text-white capitalize font-medium px-3 py-2 rounded-lg '>Get Started</button>
 
         </div>
         <div className="w-full md:w-1/2 order-1 md:order-2 flex h-full items-center justify-center ">
